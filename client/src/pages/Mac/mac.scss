@@ -228,6 +228,7 @@
             width: 40rem;
             height: fit-content;
             cursor: pointer;
+            text-align: left;
             .top-side {
               display: flex;
               align-items: center;
@@ -430,6 +431,17 @@
               font-size: 2rem !important;
           }
       }
+  }
+
+  .thethird-section{
+    h1{
+      font-size: 3rem;
+    }
+    .whole-back {
+      .content {
+        max-width: 30rem !important;
+      }
+    }
   }
   }
 }

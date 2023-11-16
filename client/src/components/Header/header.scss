@@ -45,14 +45,24 @@ header {
             align-items: center;
             color: #ffc436;
           }
+          .mode{
+            border: 1px solid var(--main-text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            border-radius: .6rem;
+            cursor: pointer;
+          }
           .login{
+            cursor: pointer;
             .user{
               display: flex;
               flex-direction: column;
               align-items: center;
             }
             p{
-              font-size: 1.5rem;
+              font-size: 1.3rem;
               font-weight: 200;
               text-transform: capitalize;
             }
