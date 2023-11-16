@@ -236,7 +236,7 @@ header nav .tools {
           }
           gap: 1rem;
           padding: 1rem;
-          height: 65vh;
+          max-height: 60vh;
           overflow-y: scroll;
 
           .basket-item {

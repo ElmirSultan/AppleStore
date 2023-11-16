@@ -26,10 +26,7 @@ myapp.use("/auth", authRoutes);
 // SETUP
 const PORT = process.env.PORT || 4500;
 mongoose
-  .connect(process.env.MONGO_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(process.env.MONGO_URL)
   .then(() => {
     myapp.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
   })
