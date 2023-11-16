@@ -1,0 +1,90 @@
+.product-page{
+    max-width: 1400px;
+    width: 100%;
+    margin: 5rem auto;
+    .product{
+        padding: 1rem;
+        h1{
+            font-size: 5rem;
+            font-weight: 500;
+        }
+        .product-box{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            .left-side{
+                p{
+                    font-size: 2rem;
+                    font-weight: 200;
+                }
+            }
+            .right-side{
+                display: flex;
+                margin-top: 3rem;
+                gap: 2rem;
+                align-items: center;
+                .product-card{
+                    a{
+                        display: none;
+                    }
+                }
+                .bottom{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 3rem;
+                    gap: 1rem;
+                    margin-top: 2rem;
+                    p{
+                        font-size: 2rem;
+                        font-weight: 200;
+                        span{
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:867px){
+    .product-page{
+        .product{
+            .product-box{
+                .right-side{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:600px){
+    .product-page{
+        .product{
+            h1{
+                font-size: 3rem !important
+            }
+            .product-box{
+                .left-side{
+                    p{
+                        font-size: 1.5rem;
+                    }
+                }
+                .right-side{
+                    display: flex;
+                    flex-direction: column;
+                    .product-card{
+                        max-width: 30rem;
+                    }
+                    .bottom{
+                        p{
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

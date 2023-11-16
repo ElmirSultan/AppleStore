@@ -1,0 +1,123 @@
+.tv-section {
+  .thefirst-section {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+    height: fit-content !important;
+    .content {
+      text-align: center;
+      margin-bottom: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.7rem;
+      h1 {
+        font-size: 7rem;
+        font-weight: 500;
+      }
+      P {
+        font-size: 2rem;
+        color: #aaa;
+        width: 70%;
+      }
+    }
+    .scroll-section {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      .thefirst-scroll,
+      .thesecond-scroll,
+      .thethird-scroll {
+        display: flex;
+        gap: 1rem;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+
+        .image-box {
+          img {
+            border-radius: 2rem;
+          }
+        }
+      }
+      .thefirst-scroll::-webkit-scrollbar,
+      .thesecond-scroll::-webkit-scrollbar,
+      .thethird-scroll::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+
+  .thesecond-section {
+    max-width: 800px;
+    width: 100%;
+    margin: 7rem auto;
+    height: fit-content !important;
+    h1 {
+      font-size: 5rem;
+      font-weight: 500;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    .section-in {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      gap: 2rem;
+      .cards {
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        gap: 3rem;
+        .bottom-side {
+          padding-left: 1rem;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          p {
+            font-size: 1.6rem;
+            font-weight: 200;
+          }
+          .usb {
+            display: flex;
+            flex-direction: column;
+            p {
+              font-size: 1.6rem;
+            }
+            .iconn {
+              font-size: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .tv-section {
+    .thefirst-section {
+      .scroll-section {
+        .thefirst-scroll,
+        .thesecond-scroll,
+        .thethird-scroll {
+          .image-box {
+            img {
+                width: 20rem;
+                height: 13rem;
+                object-fit: contain;
+              border-radius: 0 !important;
+            }
+          }
+        }
+      }
+    }
+    .thesecond-section{
+        h1{
+            font-size: 3rem !important;
+        }
+    }
+  }
+}

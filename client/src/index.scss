@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --main-text-color: #0f0f0f;
+  --main-back-color: #f0f0f0;
+  --main-back-color2: #fff;
+  --main-link-color: #0174be;
+}
+
+.light-mode {
+  --main-text-color: #0f0f0f;
+  --main-back-color2: #fff;
+  background-color: #fff;
+}
+
+.dark-mode {
+  --main-back-color2: #0f0f0f;
+  --main-text-color: #fff;
+  --main-link-color: #0174be;
+  background-color: #0f0f0f;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+img,
+a {
+  user-select: none;
+  -webkit-user-select: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label {
+  color: var(--main-text-color);
+}
+.whole-back-open {
+  overflow-y: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea {
+  font-family: "Kanit", sans-serif;
+  resize: none;
+  background-color: inherit;
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-text-color);
+  width: 0.5rem;
+}

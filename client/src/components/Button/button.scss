@@ -1,0 +1,25 @@
+.button{
+    width: fit-content;
+    padding: 1rem;
+    border-radius: .3rem;
+    border: 1px solid var(--main-text-color);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+    z-index: 5;
+    p{
+        font-size: 1.6rem;
+        color: var(--main-text-color);
+    }
+    .buton-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@-moz-document url-prefix() {
+    .button {
+      width: -moz-fit-content;
+    }
+}

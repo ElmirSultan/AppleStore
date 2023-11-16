@@ -1,0 +1,123 @@
+.airpods-section{
+    .thefirst-section{
+        max-width: 1440px;
+        width: 100%;
+        margin: 4rem auto;
+        .video {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            border-radius: 2rem;
+            overflow: hidden;
+            video {
+              width: 100%;
+              transition: all 0.5s ease-in-out;
+            }
+            position: relative;
+            .video-button {
+              position: absolute;
+              font-size: 5rem;
+              display: flex;
+              justify-content: center;
+              bottom: 2rem;
+              color: #fff;
+              border: 2px solid #fff;
+              border-radius: 100%;
+            }
+          }
+    }
+
+    .thesecond-section{
+        width: 1400px;
+        width:100% ;
+        margin: 0 auto;
+        height: 80vh;
+        background: url(../../assets/images/airpodsback.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content{
+            text-align: center;
+            h1{
+                font-size: 7rem;
+                font-weight: 500;
+                color: #000;
+            }
+            h3{
+                font-size: 2rem;
+                font-weight: 500;
+                color: #000;
+            }
+            p{
+                font-size: 1.6rem;
+                font-weight: 200;
+                color: #000;
+            }
+            a{
+                color: var(--main-link-color);
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .thethird-section{
+        max-width: 1400px;
+        width: 100%;
+        margin: 7rem auto;
+        height: fit-content !important;
+        h1{
+            font-size: 5rem;
+            font-weight: 500;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+       
+        .section-in{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 0 1rem;
+            .cards{
+                display: flex;
+                flex-direction: column;
+                width: 30rem;
+                gap: 3rem;
+                .bottom-side{
+                    padding-left: 1rem;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    p{
+                        font-size: 1.6rem;
+                        font-weight: 200;
+                    }
+                    .battery,.usb{
+                        p{
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:600px){
+    .airpods-section{
+        .thefirst-section{
+            height: fit-content !important;
+            margin: 2rem auto !important;
+            .video{
+                .video-button{
+                    font-size: 2rem !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "whywe":[
+        {
+            "id": 1,
+            "cardContent": "Pay over time, interest free.",
+            "cardContent2": "When you choose to check out with Apple Card Monthly Installments",
+            "openedContent": "Apple Card Monthly Installments",
+            "openedText":"Pay for your new Mac over time, interest‑free with Apple Card.◊ Simply choose to check out with Apple Card Monthly Installments as your payment option when you make your purchase. And enjoy 3% Daily Cash back, all up front. Terms apply."
+        },
+        {
+            "id": 2,
+            "cardContent": "Save with Apple Trade In.",
+            "cardContent2": "Get credit toward your next Mac when you trade in an eligible device",
+            "openedContent": "Trade in your eligible device for credit",
+            "openedText":"Just add a trade-in when you choose a new product. Once your eligible device has been received and verified, we’ll credit the value to your payment method. Or choose to check out with Apple Card Monthly Installments and we’ll apply the credit instantly. Terms apply."
+        },
+        {
+            "id": 3,
+            "cardContent": "Create the Mac you always wanted.",
+            "cardContent2": "Customize just about anything on your new Mac",
+            "openedContent": "Build the Mac that's best for you.",
+            "openedText":"When you buy online at Apple, you can customize your Mac just the way you want. Whether you need more memory or additional storage, you can tailor any new Mac to suit your needs."
+        }
+    ],
+    "significantothers":[
+        {
+            "id":1,
+            "content":"Mac and iPhone",
+            "text":"You can answer calls or messages from your iPhone directly on your Mac. Copy images, video, or text on your iPhone, then paste into another app on your nearby Mac. With iCloud, you can access your favorite files from either your iPhone or your Mac. And so much more.",
+            "image":"https://res.cloudinary.com/ddlca7oam/image/upload/v1699444635/maciphone_pacp0t.png"
+        },
+        {
+            "id":2,
+            "content":"Mac and iPad",
+            "text":"Sketch on your iPad and have it appear instantly on your Mac. Or use your iPad as a second display, so you can work on one screen while you reference the other. You can even start a Final Cut Pro project on your iPad and continue it on your Mac.",
+            "image":"https://res.cloudinary.com/ddlca7oam/image/upload/v1699444754/macipad_xqln78.png"
+        },
+        {
+            "id":3,
+            "content":"Mac and Apple Watch",
+            "text":"Automatically log in to your Mac when you’re wearing your Apple Watch with Auto Unlock. No password typing required.",
+            "image":"https://res.cloudinary.com/ddlca7oam/image/upload/v1699444635/macwatch_hbsozc.png"
+        }
+    ]
+
+}
